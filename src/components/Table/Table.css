@@ -1,0 +1,13 @@
+.hour-input:disabled {
+    background-color: #f0f0f05b;
+    color: #aeacac;
+    border: 1px solid #ddd;
+    cursor: not-allowed;
+  }
+  .table-container {
+    overflow-x: scroll; 
+  }
+ table th {
+    background-color: rgba(21, 60, 106);
+    color: white;
+  }

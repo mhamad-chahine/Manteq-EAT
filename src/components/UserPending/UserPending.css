@@ -1,0 +1,77 @@
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: #007BFF;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .pagination button:hover {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+  }
+
+  .report-details {
+    max-height: 500px; 
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  

@@ -1,0 +1,199 @@
+.pending-table {
+    margin: 20px;
+    width: 100%;
+  }
+  
+
+  .pending-table table{
+    min-width: 90%;
+  }
+  
+  .pending-table table th{
+    background-color: rgba(21, 60, 106);
+    color: white;
+  }
+  
+  .button-accept{
+    padding: 0.5rem 1rem;
+    margin-Right: 0.5rem;
+    color: white;
+    background-Color: green;
+    border: none;
+    border-Radius: 4px;
+    cursor: pointer;
+  }
+  .button-view {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-view:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .button-view:focus {
+    outline: none;
+  }
+  
+  .button-view .fa-eye {
+    color: rgba(21, 60, 106); 
+    font-size: 1.2rem;
+  }
+  
+  .button-view:hover .fa-eye {
+    color: #0056b3; 
+  }
+  .error {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .button-view {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .pagination-controls-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  .pagination-controls button {
+    background-color: rgb(44, 93, 149);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-controls button.active {
+    background-color: #1abc9c;
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination-controls span {
+    margin: 0 10px;
+  }
+
+.pending-table {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+.pagination-controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-controls button {
+  margin: 0 5px;
+}
+
+.details-container {
+  margin-top: 20px;
+}
+
+.details-container h2 {
+  margin-bottom: 10px;
+}
+
+.comment-box {
+  margin-top: 20px;
+}
+
+.comment-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.comment-box textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.action-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.approve-button, .reject-button, .close-button {
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(44, 93, 149);
+}
+
+.close-button{
+  margin-left: 50%;
+}
+
+.approve-button:hover, .close-button:hover{
+  background-color: #28a745; 
+  color: black;
+}
+ .reject-button:hover{
+  background-color: #dc3545;
+  color: black;
+ 
+ }
+ 
+
+.approve-button:disabled, .reject-button:disabled, .close-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
